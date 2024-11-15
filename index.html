@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Téléchargements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fichiers à Télécharger</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Catégories</a></li>
+        <li><a href="#">Nouveautés</a></li>
+        <li><a href="#">Populaires</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="upload-section">
+      <h2>Ajouter un Fichier</h2>
+      <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="file-input" name="file" required>
+        <button type="submit">Uploader</button>
+      </form>
+    </section>
+    <section id="files-section">
+      <h2>Fichiers Disponibles</h2>
+      <div id="files"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Téléchargements</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
